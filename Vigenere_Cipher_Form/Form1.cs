@@ -17,6 +17,7 @@ namespace Vigenere_Cipher_Form
             InitializeComponent();
         }
 
+        // Encryption
         public void Encrypt(ref StringBuilder s, string key)
         {
             for (int i = 0; i < s.Length; i++)
